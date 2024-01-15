@@ -107,6 +107,19 @@ h1{
 
 }
 
+.not-found-container{
+    display: none;
+}
+
+.not-found-container.active{
+    display: flex;
+    flex-direction: column;
+}
+
+.not-found-container p{
+    text-transform: uppercase;
+}
+
 .user-info-container{
     display: none;
 }
